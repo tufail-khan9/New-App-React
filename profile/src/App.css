@@ -1,0 +1,8 @@
+.para {
+  text-align: center;
+  border: 1px solid red;
+  width: 70%;
+  position: relative;
+  line-height: 4vh;
+  margin: auto;
+}
