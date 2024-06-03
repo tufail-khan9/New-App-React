@@ -1,22 +1,19 @@
-
-import './App.css'
+import "./App.css";
 // import Profile from './Profile'
-import HtmlTask_inReact from './Components/PropertyByName'
+import HtmlTask_inReact from "./Components/PropertyByName";
 // // import Demo33 from './Components/middleTask'
-import InheritChildren from './Components/childMethod'
+import InheritChildren from "./Components/childMethod";
 // import SpreedMethod from './Components/spreedTech'
-import PropsMethod22 from './Components/PropsMeth';
-import PackingList from './Challenges/PackingLIst';
-
-
-
+import PropsMethod22 from "./Components/PropsMeth";
+import PackingList from "./Challenges/PackingLIst";
+import PackingList1 from "./Challenges/PackingLIst1";
+import DrinkList from './Challenges/Refactor'
 
 function App() {
-
   let carType = {
     model: "23toyota",
     color: "white",
-    size: "middle"
+    size: "middle",
   };
 
   // let person = {
@@ -33,43 +30,55 @@ function App() {
   //     "render any thing"
   //   }
 
-
   return (
-    <div className='container22'>
+    <div className="container22">
       <div className="new"></div>
       {/* <Profile/>  */}
       <HtmlTask_inReact carType={carType} />
       {/* <Demo33 /> */}
 
-
       {/* The Below Method Are Used For Props */}
-      <div className='para'>
+      <div className="para">
         <h2>This method is used for Props</h2>
         <PropsMethod22
-          person1=
-          {{
+          person1={{
             name: "Tufail",
             height: "5.5",
             age: "30",
-            address: "Lakki Marwat KPK"
+            address: "Lakki Marwat KPK",
           }}
         />
       </div>
 
       {/* The Below Method Are Used for Children */}
       <InheritChildren>
-        Name: {'jeep'} <br />
-        Company: {'Sohrab'}<br />
-        Size: {'Full size'}<br />
-        Model: {'2011'}
+        Name: {"jeep"} <br />
+        Company: {"Sohrab"}
+        <br />
+        Size: {"Full size"}
+        <br />
+        Model: {"2011"}
       </InheritChildren>
       <div>
-      <div className="para">
-<PackingList />
-</div>
+
+
+        <div className="para">
+          <PackingList />
+        </div>
+
+
+        <div className="para">
+          <PackingList1 />
+        </div>
+
+
+        <div className="para">
+          <DrinkList />
+        </div>
+
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
