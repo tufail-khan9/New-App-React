@@ -7,7 +7,8 @@ import InheritChildren from "./Components/childMethod";
 import PropsMethod22 from "./Components/PropsMeth";
 import PackingList from "./Challenges/PackingLIst";
 import PackingList1 from "./Challenges/PackingLIst1";
-import DrinkList from './Challenges/Refactor'
+import DrinkList from './Challenges/Refactor';
+import SplittingList from './Challenges/Splitting_a_list_in_two';
 
 function App() {
   let carType = {
@@ -71,10 +72,14 @@ function App() {
           <PackingList1 />
         </div>
 
-
-        <div className="para">
+<hr />
+        
           <DrinkList />
-        </div>
+        <hr />
+
+        
+          <SplittingList />
+        
 
       </div>
     </div>
