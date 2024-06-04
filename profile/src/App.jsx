@@ -9,6 +9,8 @@ import PackingList from "./Challenges/PackingLIst";
 import PackingList1 from "./Challenges/PackingLIst1";
 import DrinkList from './Challenges/Refactor';
 import SplittingList from './Challenges/Splitting_a_list_in_two';
+import NestedList22 from './Challenges/NestedList'
+//import { recipes } from "./Challenges/nestedListItems";
 
 function App() {
   let carType = {
@@ -79,7 +81,12 @@ function App() {
 
         
           <SplittingList />
-        
+        <hr />
+
+        <div className="para">
+          <NestedList22 />
+        </div>
+
 
       </div>
     </div>
