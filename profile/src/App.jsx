@@ -11,6 +11,7 @@ import DrinkList from './Challenges/Refactor';
 import SplittingList from './Challenges/Splitting_a_list_in_two';
 import NestedList22 from './Challenges/NestedList'
 //import { recipes } from "./Challenges/nestedListItems";
+import RecipeList from './Challenges/Extracting_ListItem_Components';
 
 function App() {
   let carType = {
@@ -87,7 +88,10 @@ function App() {
           <NestedList22 />
         </div>
 
-
+        <div className="para">
+          <RecipeList />
+          </div>
+          
       </div>
     </div>
   );
