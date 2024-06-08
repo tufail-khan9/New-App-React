@@ -1,6 +1,6 @@
 function AddTodo() {
   return (
-    <div class="container">
+    <div className="container">
       <div className="row kg-row">
         <div className="col-3">
           <input type="text" placeholder="Enter To DoList"></input>

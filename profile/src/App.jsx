@@ -13,6 +13,10 @@ import NestedList22 from './Challenges/NestedList'
 //import { recipes } from "./Challenges/nestedListItems";
 import RecipeList from './Challenges/Extracting_ListItem_Components';
 import Poem from './Challenges/List_with_Seperator';
+import Gallery from './Challenges/CompleteGallery';
+import Form from './Challenges/FixStuckFormInput';
+import FeedbackForm from './Challenges/Feedback';
+import AddPy from './JavaScript_To_React/Add_Py';
 
 function App() {
   let carType = {
@@ -96,7 +100,23 @@ function App() {
           <div className="para">
           <Poem />
           </div>
+
+          <div className="para">
+          <Gallery />
+          </div>
+
+          <div className="para">
+          <Form />
+          </div>
           
+          <div className="para">
+          <FeedbackForm />
+          </div>
+          
+          <div className="para">
+          <AddPy />
+          </div>
+
       </div>
     </div>
   );
