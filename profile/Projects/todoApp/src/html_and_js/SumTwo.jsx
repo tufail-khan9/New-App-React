@@ -12,8 +12,11 @@ export default function SumTwo() {
     }
     function SumofTwo()
     {
-        let sum = inputnum + inputnum2;
-        if(sum > 50 && sum <80)
+        const num1 = parseFloat(inputnum);
+        const num2 = parseFloat(inputnum2);
+        
+        let sum1 = num1 + num2;
+        if(sum1 > 50 && sum1 < 80)
             {
                 setResultnum("The sum of your provided numbers is in the range of 50 and 80")
             }else{
@@ -29,7 +32,7 @@ export default function SumTwo() {
     <input type="text" value={inputnum} onChange={handleChar}/><br />
     <input type="text" value={inputnum2} onChange={handleChar2}/>
     <button onClick={SumofTwo} id="btn_py" className='input-button'>Click Here</button>
-    <p style={{color: red}}>{resultnum}</p>
+    <p>{resultnum}</p>
     </>
   )
 }

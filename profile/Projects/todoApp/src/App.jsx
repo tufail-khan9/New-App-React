@@ -9,6 +9,7 @@ import TakingLastThreeChar from './html_and_js/TakingLastThreeChar';
 import LargestNumber from './html_and_js/LargestNumber';
 import FindGrade from './html_and_js/FindGrade';
 import SumTwo from './html_and_js/SumTwo';
+import FindEvenOdd from './html_and_js/FindEvenOdd';
 
 import './App.css';
 
@@ -69,6 +70,11 @@ function App() {
 
       <div className="button-container">
        <SumTwo />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <FindEvenOdd />
       </div>
       <hr />
       
