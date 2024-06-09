@@ -10,6 +10,9 @@ import LargestNumber from './html_and_js/LargestNumber';
 import FindGrade from './html_and_js/FindGrade';
 import SumTwo from './html_and_js/SumTwo';
 import FindEvenOdd from './html_and_js/FindEvenOdd';
+import MultipleOfNumbers from './html_and_js/MultipleOfNumbers';
+import Dumy from './html_and_js/Dumy';
+
 
 import './App.css';
 
@@ -77,6 +80,12 @@ function App() {
        <FindEvenOdd />
       </div>
       <hr />
+
+      <div className="button-container">
+       <MultipleOfNumbers />
+      </div>
+      <hr />
+      <Dumy />
       
     </>
   );
