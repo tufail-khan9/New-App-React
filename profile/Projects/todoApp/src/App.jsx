@@ -12,6 +12,12 @@ import SumTwo from './html_and_js/SumTwo';
 import FindEvenOdd from './html_and_js/FindEvenOdd';
 import MultipleOfNumbers from './html_and_js/MultipleOfNumbers';
 import Dumy from './html_and_js/Dumy';
+import SumOf_MultipleThree from './html_and_js/SumOf_MultipleThree';
+import SumOfNumbers from './html_and_js/SumOfArray';
+import TicketsBased_onAge from './html_and_js/TicketsBased_onAge';
+import DiscountCalculator from './html_and_js/DiscountCalculator';
+import ArraySumCalculator from './html_and_js/ArraySumCalculator';
+import ArrayReverseAndFactorial from './html_and_js/ArrayReverseAndFactorial';
 
 
 import './App.css';
@@ -85,7 +91,43 @@ function App() {
        <MultipleOfNumbers />
       </div>
       <hr />
-      <Dumy />
+
+      <div className="button-container">
+       <Dumy />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <SumOf_MultipleThree />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <SumOfNumbers />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <TicketsBased_onAge />
+      </div>
+      <hr />
+      
+      <div className="button-container">
+       <DiscountCalculator />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <ArraySumCalculator />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <ArrayReverseAndFactorial />
+      </div>
+      <hr />
+     
+      
       
     </>
   );
