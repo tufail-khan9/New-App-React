@@ -18,6 +18,9 @@ import TicketsBased_onAge from './html_and_js/TicketsBased_onAge';
 import DiscountCalculator from './html_and_js/DiscountCalculator';
 import ArraySumCalculator from './html_and_js/ArraySumCalculator';
 import ArrayReverseAndFactorial from './html_and_js/ArrayReverseAndFactorial';
+import {Challenge} from './html_and_js/Challenge';
+import UseImmer from './html_and_js/UseImmer';
+import Option from './DummyProjects/QuizApp/Option';
 
 
 import './App.css';
@@ -126,7 +129,24 @@ function App() {
        <ArrayReverseAndFactorial />
       </div>
       <hr />
-     
+
+      <div className="button-container">
+       <Challenge />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <UseImmer />
+      </div>
+      <hr />
+
+      <div className="button-container">
+       <Option />
+      </div>
+      <hr />
+      
+      
+      
       
       
     </>
